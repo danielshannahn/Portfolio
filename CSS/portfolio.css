@@ -1,0 +1,74 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: black !important;
+}
+h1:hover{
+    text-decoration: underline;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-size: 37px;
+}
+.casestudies{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+.casestudy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 60%;
+    height: 100%;
+    background-color: rgba(242,242,242,0.75);
+    border-radius: 64px;
+    padding-left: 5%;
+    min-height: 500px;
+}
+.column {
+    width: 45%;
+    font-size: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.Edpicture{
+    width: 450px;
+    margin-top:5%
+}
+
+.filler4portfolio{
+    height: 50px;
+}
+
+.saleseeimage{
+    margin: 5%;
+    height: 400px;
+}
+
+@media(max-width: 1482px){
+    .casestudy{
+        flex-direction: column-reverse;
+        height: 100%;
+        align-items: center;
+        padding:10%;
+    }
+    .column{
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+}

@@ -1,0 +1,65 @@
+.aboutme {
+    width: 618px;
+    height: 245px;
+    left: 206px;
+    top: 208px; 
+    font-family: 'Montserrat', sans-serif;
+    font-style: light;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.button {
+    background-color: transparent;
+    color: black;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    border: transparent;
+    display: flex;
+}
+.button:hover{
+    text-decoration: underline;
+}
+.heroimage{
+    width: 436px;
+    height: 457px;
+}
+.home-section {
+    display: flex;
+    height: 450px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.picture-section {
+    width:25%
+    
+}
+.filler1{
+    width: 10%;
+}
+.filler2{
+    width: 10%;
+}
+@media(max-width:1482px){
+    .home-section{
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+    }
+    .picture-section{
+        width: 75%;
+        margin:auto;
+        margin-bottom: 100px;
+    }
+    .aboutme{
+        margin: auto;
+        text-align: center;
+    }
+    .button{
+        margin: auto
+    }
+}

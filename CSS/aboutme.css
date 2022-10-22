@@ -1,0 +1,31 @@
+.introheader{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+.aboutHannah{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    min-height: 500px;
+    font-size: 38px;
+    margin-left: 13%;
+    color: black;
+}
+.Blog{
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        min-height: 500px;
+        font-size: 38px;
+        margin-left: 13%;  
+}
+h2{
+    font-size: 40px !important;
+}
+.onedoesNOT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

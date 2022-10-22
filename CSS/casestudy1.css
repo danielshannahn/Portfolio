@@ -1,0 +1,80 @@
+/* Controls */
+.carousel-control-prev{
+    height: 50px;
+    width: 50px;
+    top: 40%;
+    left: 10%;
+    background-color: black;
+    z-index: 0;
+
+}
+
+.carousel-control-next{
+    height: 50px;
+    width: 50px;
+    top: 40%;
+    right: 10%;
+    background-color: black;
+    z-index: 0;
+ 
+}
+.carousel-item{
+    max-height: 700px;
+}
+/* first slide */
+.casestudyIntro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.casestudyText{
+    font-size: 28px;
+    text-justify:inter-word;
+}
+.italics{
+    font-style: italic;
+}
+.slidePicture{
+    margin:auto;
+    max-height: 500px;
+}
+/* second slide */
+.slideText2{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+/* third slide */
+.slideText3{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+/* fourth slide */
+.slideText4{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+/* Fifth Slide */
+.slideText5{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
