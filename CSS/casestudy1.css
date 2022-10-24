@@ -77,4 +77,19 @@
     width: 50%;
     margin: auto;
 }
+/* Slide Six */
+.slideText6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+} 
 
+.slideText6 a{
+    text-decoration:underline;
+    color: black !important;
+}
