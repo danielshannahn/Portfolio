@@ -4,7 +4,17 @@
 <link rel="stylesheet" href="CSS/homepage.css" />
 <link rel="stylesheet" href="CSS/aboutme.css" /> -->
 
-<head>
+<head>\
+    <!-- Google Analytics -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CQF1TRYNJK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-CQF1TRYNJK');
+    </script>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -18,16 +28,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
         rel="stylesheet">
-    <!-- Google Analytics -->
-    <!-- Google tag (gtag.js) -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-CQF1TRYNJK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-CQF1TRYNJK');
-</script> -->
 </head>
 
 <body>
@@ -60,23 +60,23 @@
                     </div>
                 </div>
             </div>
-<div class="row hamburgerRow">
-    <div class="ham-menu flex">
-        <ul class="HamburgMenu">
-            <a href="./portfolio.html">
-                <li class="inlineHam">Portfolio</li>
-            </a>
-            <a href="./about.html">
-                <li class="inlineHam">About</li>
-            </a>
-            <li class="inlineHam">Contact</li>
-            <a
-                href="https://docs.google.com/document/d/1zX2h6t37OhuVagQouJUJo-0AHWSnpwPlDOzTRvMVBlU/edit?usp=sharing">
-            <li class="inlineHam">Resume</li>
-            </a>
-        </ul>
-    </div>
-</div>
+            <div class="row hamburgerRow">
+                <div class="ham-menu flex">
+                    <ul class="HamburgMenu">
+                        <a href="./portfolio.html">
+                            <li class="inlineHam">Portfolio</li>
+                        </a>
+                        <a href="./about.html">
+                            <li class="inlineHam">About</li>
+                        </a>
+                        <li class="inlineHam">Contact</li>
+                        <a
+                            href="https://docs.google.com/document/d/1zX2h6t37OhuVagQouJUJo-0AHWSnpwPlDOzTRvMVBlU/edit?usp=sharing">
+                            <li class="inlineHam">Resume</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
             <div class="aboutHannah">
                 <h1 class="introheader">If You've Made it This Far, <br>
                     You Might Be Wondering... <span style="font-style:italic;">Who</span> is Hannah?</H1>
@@ -89,11 +89,12 @@
             <div class="Blog">
                 <H2>Not Personal Enough For You? Blog About It.</H2>
                 <div class="BLOGGERS">
-                    <p> Stay Tuned! This is going to require me stepping out of my comfort zone and digging into some backend shenanigans.<br>
+                    <p> Stay Tuned! This is going to require me stepping out of my comfort zone and digging into some
+                        backend shenanigans.<br>
                         <span style="font-style: italic;">"Hey, Google. How does one MongoDB</span>
                     </p>
                     <div class="onedoesNOT">
-                    <img src="./Images/One does not simply.png" style="height: 400px;">
+                        <img src="./Images/One does not simply.png" style="height: 400px;">
                     </div>
                 </div>
             </div>
@@ -135,4 +136,5 @@
     <!-- Insert JS??? -->
     <script src="./JS/index.js"></script>
 </body>
+
 </html>
