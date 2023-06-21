@@ -1,6 +1,8 @@
 /* This is for Navigation and Footer Purposes */
 body {
-    background: linear-gradient(180deg, #4B4A37 10.42%, rgba(121, 120, 105, 0.81) 60.94%, rgba(171, 176, 162, 0) 100%);    
+    /* background: linear-gradient(180deg, #4B4A37 10.42%, rgba(121, 120, 105, 0.81) 60.94%, rgba(171, 176, 162, 0) 100%);     */
+    background-image: url(/Images/longerbackground.png);
+    background-size: cover;
 }
 
 .navbar {
@@ -41,6 +43,8 @@ a{
 }
 
 .footer {
+    margin-top: 100px;
+    margin-bottom: 100px;
     font-family: 'Montserrat', sans-serif;
     font-size: 32px;
     text-align: center;
@@ -112,11 +116,11 @@ a{
     }
     .ham-menu {
         display:none;
-        background-color: black;
+        background-color: #BF6D3E;
 
     }
     .inline{
-        background-color: black;
+        background-color: #BF6D3E;
         margin: auto;
     }
     nav{
@@ -128,7 +132,7 @@ a{
     .hamburgerRow{
     flex-direction: column;
     align-items: center;
-    background-color: black;
+    background-color: #BF6D3E;
     position: absolute;
     width:102%;
     z-index: 1;

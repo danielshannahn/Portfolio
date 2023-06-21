@@ -28,6 +28,7 @@
     height: 457px;
 }
 .home-section {
+    margin-top: 150px;
     display: flex;
     height: 450px;
     flex-direction: row;

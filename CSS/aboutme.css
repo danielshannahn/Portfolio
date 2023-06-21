@@ -1,4 +1,9 @@
+body{
+    background-size: cover;
+}
+
 .introheader{
+    margin-top: 100px;
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
 }
@@ -25,6 +30,7 @@ h2{
     font-size: 40px !important;
 }
 .onedoesNOT{
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
